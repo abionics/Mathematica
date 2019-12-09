@@ -1,0 +1,6 @@
+Interesting functions:
+y=x*sin(1/x)
+y^2=x^2-x^4
+sin(x)^cos(y)<1
+sin(cos(x)*cos(y))<0
+sin(cos(x))<cos(sin(y))

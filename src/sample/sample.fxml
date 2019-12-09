@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Canvas fx:id="canvas" height="600.0" layoutX="350.0" layoutY="50.0" onScroll="#scroll" onZoom="#zoom" width="800.0" />
+    <ScrollPane fx:id="scroll" layoutX="50.0" layoutY="50.0" prefHeight="510.0" prefWidth="260.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="250.0" />
+    </ScrollPane>
+   <Button layoutX="141.0" layoutY="636.0" mnemonicParsing="false" onAction="#centrate" text="Centrate">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Button layoutX="144.0" layoutY="691.0" mnemonicParsing="false" onAction="#clear" prefHeight="27.0" prefWidth="72.0" text="Clear">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+</AnchorPane>
