@@ -11,8 +11,8 @@ public class Main extends Application {
 
     @Override
     public void start(@NotNull Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Grapher");
+        Parent root = FXMLLoader.load(getClass().getResource("/matematica.fxml"));
+        primaryStage.setTitle("Matematica");
         primaryStage.setScene(new Scene(root, 1200, 800));
         primaryStage.show();
     }
