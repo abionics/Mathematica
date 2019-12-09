@@ -1,4 +1,4 @@
-package sample;
+package com.abionics.matematica;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;

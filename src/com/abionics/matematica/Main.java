@@ -1,4 +1,4 @@
-package sample;
+package com.abionics.matematica;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

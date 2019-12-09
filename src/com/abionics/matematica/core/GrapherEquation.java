@@ -1,5 +1,6 @@
-package Mathematica;
+package com.abionics.matematica.core;
 
+import com.abionics.matematica.help.Point;
 import javafx.scene.paint.Color;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;

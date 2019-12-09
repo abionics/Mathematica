@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abionics.matematica.Controller">
     <Canvas fx:id="canvas" height="600.0" layoutX="350.0" layoutY="50.0" onScroll="#scroll" onZoom="#zoom" width="800.0" />
     <ScrollPane fx:id="scroll" layoutX="50.0" layoutY="50.0" prefHeight="510.0" prefWidth="260.0">
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="250.0" />

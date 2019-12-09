@@ -1,6 +1,7 @@
-package sample;
+package com.abionics.matematica;
 
-import Mathematica.*;
+import com.abionics.matematica.core.*;
+import com.abionics.matematica.help.Point;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
 import org.jetbrains.annotations.Contract;

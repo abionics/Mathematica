@@ -1,4 +1,4 @@
-package Mathematica;
+package com.abionics.matematica.core;
 
 import org.jetbrains.annotations.Contract;
 

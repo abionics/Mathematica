@@ -1,4 +1,4 @@
-package sample;
+package com.abionics.matematica;
 
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;

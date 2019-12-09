@@ -1,5 +1,6 @@
-package Mathematica;
+package com.abionics.matematica.core;
 
+import com.abionics.matematica.help.Point;
 import javafx.scene.paint.Color;
 
 import java.util.ArrayList;
